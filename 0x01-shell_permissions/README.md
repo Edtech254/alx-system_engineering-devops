@@ -11,4 +11,4 @@ Owner: no permission at all
 Group: no permission at all
 Other users: all the permissions
 chmod 753 hello -> sets the mode of the file hello to this
-chmod --reference-olleh  -> sets the mode of the file hello the same as olleh’s mode
+chmod --reference=olleh hello  -> sets the mode of the file hello the same as olleh’s mode
