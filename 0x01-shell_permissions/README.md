@@ -14,3 +14,8 @@ chmod 753 hello -> sets the mode of the file hello to this
 chmod --reference=olleh hello  -> sets the mode of the file hello the same as olleh’s mode
 chmod -R +X . -> adds execute permission to all subdirectories of the current directory for the owner, the group owner and all other users.
 mkdir -m 751 my_dir -> creates a directory called my_dir with permissions 751 in the working directory
+chrp school hello ->  changes the group owner to school for the file hello
+chown -hR vincent staff -> changes the owner to vincent and the group owner to staff for all the files and directories in the working directory
+chown -h vincent staff_hello ->  changes the owner and the group owner of _hello to vincent and staff respectively
+chown -from=guillaume betty hello
+telnet towel blinkenlights nl ->  play the StarWars IV episode in the terminal.
